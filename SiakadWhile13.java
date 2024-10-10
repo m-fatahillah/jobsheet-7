@@ -11,12 +11,8 @@ public class SiakadWhile13 {
         System.out.println("Masukkan jumlah mahasiswa: ");
         jml = sc.nextInt();
 
-        while (i < jml ) {
-
-            i++;
-        }
         while (i < jml) {
-            System.out.println("Masukkan nilai mahasiswa ke-" + (i + 1) + ": ");
+            System.out.print("Masukkan nilai mahasiswa ke-" + (i + 1) + ": ");
             nilai = sc.nextInt();
 
             if (nilai < 0 || nilai > 100) {
