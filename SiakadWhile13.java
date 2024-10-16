@@ -35,7 +35,7 @@ public class SiakadWhile13 {
                 System.out.println("Nilai mahasiswa ke-" + (i + 1) + " adalah E");
             }
             i++;
-        }
+        } 
 
     }
 
